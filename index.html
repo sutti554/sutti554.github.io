@@ -1,19 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>First HTML Page</title>
+    <title>Structure&Layout</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <h1>Project Archive</h1>
-    <ul>Project 1</ul>
-    <ul>Project 2</ul>
-    <ul>Project 3</ul>
-  
-</body>
+    
+    <header>
+        <h1>Isabelle's Project Archive</h1> 
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <div class= "project project__left"> 
+            <img src="http://placehold.it/400" alt="Project Image">
+            <h3>Project Title 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nostrum nobis illum perferendis maxime rem magnam temporibus molestiae sequi eveniet. Similique ipsam earum delectus sit sequi nostrum numquam in maiores!</p>
+        </div>
+        <div class= "project project__right" > 
+            <img src="http://placehold.it/400" alt="Project Image">
+            <h3>Project Title 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nostrum nobis illum perferendis maxime rem magnam temporibus molestiae sequi eveniet. Similique ipsam earum delectus sit sequi nostrum numquam in maiores!</p>
+        </div>
+        <div class= "project"> 
+            <img src="http://placehold.it/400" alt="Project Image">
+            <h3>Project Title 3 </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum nostrum nobis illum perferendis maxime rem magnam temporibus molestiae sequi eveniet. Similique ipsam earum delectus sit sequi nostrum numquam in maiores!</p>
+        </div>
+
+    </main>
+
+    <footer>
+&copy; 2019  Isabelle Suttner
+    </footer>
+
+</body>
 </html>

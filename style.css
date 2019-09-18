@@ -1,0 +1,33 @@
+header {
+    background-color: lightpink 
+} 
+
+h1 {   
+     margin: 0; 
+ }
+
+ nav ul {
+   list-style-type: none;  
+   margin: 0;
+   padding: 0;
+ }
+
+ nav ul li {
+   display: inline-block; 
+   margin: 0 1rem 0 0;
+   padding: 0;     
+ }
+
+ nav ul li a {
+   color: blue;  
+   text-decoration: none;
+ }
+
+ nav ul li a:hover {
+     color: white;
+ }
+
+ .project {
+     background-color:  #000;
+     color: white;
+ }
