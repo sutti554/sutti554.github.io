@@ -1,28 +1,40 @@
+.page {
+  width: 600 px;
+  margin: 0 auto;
+}
 header {
-    background-color: lightpink 
+    background-color: lightpink; 
+    padding: 10px;
+    border: 5px solid #000;
+    margin: 50px;
+
 } 
 
 h1 {   
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     margin: 0; 
+    margin: 0; 
+    text-align: center;
  }
 
  nav ul {
    list-style-type: none;  
    margin: 0;
    padding: 0;
+   text-align: center;
  }
 
  nav ul li {
    display: inline-block; 
    margin: 0 1rem 0 0;
-   padding: 0;     
+   padding: 0; 
+   text-align: center;    
  }
 
  nav ul li a {
-   color: lightblue;  
+   color: rgb(56, 148, 179);  
    text-decoration: none;
+   text-align: center;
  }
 
  nav ul li a:hover {
@@ -30,6 +42,6 @@ h1 {
  }
 
  .project {
-     background-color:  #000;
-     color: white;
+     background-color: lightgray;
+     color: #000;
  }
